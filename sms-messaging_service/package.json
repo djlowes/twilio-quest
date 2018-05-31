@@ -1,0 +1,27 @@
+{
+  "name": "twilio-message-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "single": "nodenv singleNumber.js",
+    "multi": "nodenv multipleNumbers.js"
+  },
+  "keywords": [
+    "sms",
+    "twilio",
+    "bulk-sms"
+  ],
+  "author": "djlowes",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "dotenv-parse-variables": "^0.1.0",
+    "node-env-run": "^2.0.1",
+    "twilio": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philnash/bulk-sms-alerts.git"
+  }
+}
