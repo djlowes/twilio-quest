@@ -3,11 +3,11 @@ const router = express.Router();
 const path = require('path');
 
 router.get("/", function(req, res) {
-  res.render('home');
+  res.render('main');
 });
 
 router.get("/dashboard", function(req, res) {
-  res.render('dashboard');
+  res.render('main');
 });
 
 
