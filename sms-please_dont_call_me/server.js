@@ -22,11 +22,11 @@ app.set('view engine', 'html');
 //------------------------------------------------------------------
 const html = require('./routes/routes.js');
 const hangup = require('./routes/hangup.js');
-// const message = require('./routes/message.js');
+const message = require('./routes/message.js');
+
 app.use('/', html);
-app.use('/hangup', twilion.first);
-app.use('/message', twilion.second);
-// app.use('/message', message);
+app.use('/hangup', hangup.router);
+app.use('/message', message);
 
 //Listening
 //------------------------------------------------------------------
