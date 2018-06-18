@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say voice="alice">Welcome to Sales! Please wait until someone is ready to assist you.</Say>
+  <Enqueue waitUrl="http://twimlets.com/holdmusic?Bucket=com.twilio.music.guitars">callcenter</Enqueue>
+</Response>
